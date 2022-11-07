@@ -1,0 +1,31 @@
+.home {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.home__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: white;
+  padding: 200px 100px;
+  max-width: 50vw;
+}
+
+.home__list {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.home__button {
+  height: 40px;
+  width: 300px;
+}

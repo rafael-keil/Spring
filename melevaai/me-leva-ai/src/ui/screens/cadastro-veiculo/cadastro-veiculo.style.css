@@ -1,0 +1,33 @@
+.cadastro_veiculo {
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cadastro_veiculo__container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 150px 100px;
+  max-width: 50vw;
+  gap: 50px;
+}
+
+.cadastro_veiculo__form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+.cadastro_veiculo__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

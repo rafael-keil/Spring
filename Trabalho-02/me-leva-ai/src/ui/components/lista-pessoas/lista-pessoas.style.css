@@ -1,0 +1,11 @@
+.lista_pessoas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.lista_pessoas__button {
+  padding: 8px 20px;
+}

@@ -1,0 +1,42 @@
+.home_motorista {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.home_motorista__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background-color: white;
+  padding: 40px 100px;
+  max-width: 50vw;
+  max-height: 90vh;
+}
+
+.home_motorista__form {
+  padding: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.home_motorista__corrida {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home_motorista__veiculos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
